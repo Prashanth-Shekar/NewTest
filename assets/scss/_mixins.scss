@@ -1,0 +1,18 @@
+@mixin simple-mixin() {
+	color:#262626;
+}
+
+.some-text {
+	font-size:22px;
+	@include simple-mixin();
+}
+
+//Dynamic
+@mixin dynamic-mixin($passed-var) {
+	color:$passed-var;
+}
+
+.some-more-text {
+	font-size:22px;
+	@include dynamic-mixin(#262626);
+}

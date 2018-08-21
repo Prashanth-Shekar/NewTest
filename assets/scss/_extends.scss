@@ -1,0 +1,17 @@
+%remove-text {
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+.site-logo {
+	width:200px;
+	height:150px;
+	%remove-text;
+}
+
+
+.site-logo,
+.random-class,
+.another-random-class {
+	@extend %remove-text;
+}

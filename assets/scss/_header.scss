@@ -1,0 +1,19 @@
+$font-style:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-style;
+  color: $primary-color;
+  text-align: center;
+  background-color: antiquewhite;
+  
+ }
+
+a {
+    text-decoration: none;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+}
